@@ -7,7 +7,7 @@ def line(deli)
     deli.each_with_index { |name, index| 
       line << "#{index + 1}. #{name}" 
     }
-    puts line.join(",")
+    puts line.join(" ")
   end
 end
 
