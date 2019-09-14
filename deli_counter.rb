@@ -12,7 +12,7 @@ end
 def take_a_number(currentpeople, name)
   currentpeople << name
   position = currentpeople.index(name) + 1
-  puts "Welcome, #{name}. Your number #{position} in line."
+  puts "Welcome, #{name}. You are number #{position} in line."
 end
 
 def now_serving
