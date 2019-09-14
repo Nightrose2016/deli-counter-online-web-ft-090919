@@ -9,8 +9,8 @@ end
 
 def take_a_number(currentpeople, name)
   currentpeople << name
-  place = currentpeople.index(name) + 1
-  puts "welcome"
+  position = currentpeople.index(name) + 1
+  puts "Welcome, #{name}. Your number #{position}"
 end
 
 def now_serving
