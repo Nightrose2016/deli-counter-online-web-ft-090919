@@ -5,14 +5,14 @@ def line(deli)
   else
     line = ["The line is currently:"]
     deli.each_with_index { |name, index|  line << "#{index + 1}. #{name}" }
-    puts line.join(" ")
+    return line.join(" ")
   end
 end
 
 def take_a_number(currentpeople, name)
   currentpeople << name
   position = currentpeople.index(name) + 1
-  puts "Welcome, #{name}. Your number #{position} in line."
+  return "Welcome, #{name}. Your number #{position} in line."
 end
 
 def now_serving
