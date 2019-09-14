@@ -5,6 +5,7 @@ def line(deli)
   else
     line = ["The line is currently:"]
     deli.each_with_index { |name, index| line << "#{index + 1}. #{name}" }
+    puts line.join(",")
   end
 end
 
