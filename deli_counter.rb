@@ -7,8 +7,10 @@ def line(deli)
   end
 end
 
-def take_a_nember
-  
+def take_a_number(currentpeople, name)
+  currentpeople << name
+  place = currentpeople.index(name) + 1
+  puts "welcome"
 end
 
 def now_serving
